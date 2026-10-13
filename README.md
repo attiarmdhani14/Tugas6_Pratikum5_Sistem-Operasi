@@ -25,6 +25,24 @@
 
    <img width="1280" height="800" alt="1b ubuntu" src="https://github.com/user-attachments/assets/53caa048-411b-48a7-b3fa-1e74375a7e37" />
 
+   c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut:
+   $ su mahasiswa
+   $ exit
+   kemudian gunakan opsi – sebagai berikut :
+   $ su – mahasiswa
+   $ exit
+   Jelaskan perbedaan kedua utilitas tersebut.
+
+   <img width="1280" height="800" alt="ubuntu 1C" src="https://github.com/user-attachments/assets/c91c1eb4-8cc4-47f3-afe2-14450ef0c10e" />
+
+2. Prompt String (PS)
+   a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan
+   variable PS1 dikenal oleh semua shell
+   PS1=’> ‘
+   export PS1
+   
+
+
 
 
 
