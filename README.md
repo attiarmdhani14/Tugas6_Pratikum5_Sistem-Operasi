@@ -35,8 +35,12 @@
 
    <img width="1280" height="800" alt="ubuntu 1C" src="https://github.com/user-attachments/assets/c91c1eb4-8cc4-47f3-afe2-14450ef0c10e" />
 
+   su username : beralih ke pengguna lain tanpa melalui lingkungan login secarah penuh.
 
-2. Prompt String (PS)
+   su - username : Beralih ke pengguna lain dengan lingkungan login, termasuk pengaturan lingkungan dan pembacaan file profile login yang sesuai.
+
+
+3. Prompt String (PS)
    a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan
    variable PS1 dikenal oleh semua shell
    PS1=’> ‘
@@ -52,7 +56,7 @@
    <img width="564" height="294" alt="2b ubuntu" src="https://github.com/user-attachments/assets/fd1c45db-aff0-47d1-ac82-2bcce187ac0b" />
 
 
-3. Logout Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout
+4. Logout Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout
    Echo “Terima kasih atas sesi yang
    diberikan”
    Sleep 5
@@ -63,7 +67,7 @@
    <img width="471" height="159" alt="VirtualBox_ubuntu26_13_10_2026_10_33_29" src="https://github.com/user-attachments/assets/dff1d4f1-d8d0-49cc-becf-372d08d13a0e" />
 
 
-4. Bash script
+5. Bash script
    a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
    p1.sh
    #! /bin/bash
@@ -92,7 +96,7 @@
    <img width="1280" height="800" alt="4A5" src="https://github.com/user-attachments/assets/7353c6f6-73c2-41df-9be5-36cd78846519" />
 
 
-5. Jobs
+6. Jobs
    a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
    #!/bin/bash
    while [ true ]
@@ -130,7 +134,7 @@
    <img width="459" height="79" alt="5D2" src="https://github.com/user-attachments/assets/c4ece1f4-3a47-4583-bade-84f65f44c48c" />
 
 
-6. History
+7. History
    a. Ganti nilai HISTSIZE dari 1000 menjadi 20
    $ HISTSIZE=20
    $ h
